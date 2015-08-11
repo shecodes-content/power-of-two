@@ -6,8 +6,9 @@ Certain numbers will appear around you again and again when you deal with comput
 - show the board with numbers
   - 1,2,4,8,16,32,64,128,512,1k,2k ...
 - play 2048!
-- x^y read: x to thw power of y (we write it loke this because superscript is not available everywhere)
+- x^y read: x to the power of y (we write it like this because superscript is not available everywhere)
 - point out: 1k stands for x1024 (unlike in the decimal world ([SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)), where it stands for x1000 as in km and kg)
+  - the confusion about whether, for example, G stands for 1024\*1024\*1024 or 1000\*1000\*1000 is exploited by marketing people, most famously when advertising harddisks. Harddsika can store less than you think, because "120GB" actually are what we would call 111.75GB.
 - prefixes are: kilo, Mega, Giga, Tera, Peta, Exa
 - point out: 2^1x = K, 2^2x = M, 2^3x = G etc.
 - things you should know by heart:
