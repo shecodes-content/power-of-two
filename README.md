@@ -9,8 +9,8 @@ Certain numbers will appear around you again and again when you deal with comput
 - x^y read: x to the power of y (we write it like this because superscript is not available everywhere)
 - point out: 1k stands for x1024 (unlike in the decimal world ([SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)), where it stands for x1000 as in km and kg)
   - the confusion about whether, for example, G stands for 1024\*1024\*1024 or 1000\*1000\*1000 is exploited by marketing people, most famously when advertising harddisks. Harddsika can store less than you think, because "120GB" actually are what we would call 111.75GB.
-  - to resolve this, the binary prefixes (1024-baesd) have a trailing `i`. (see [here](https://en.wikipedia.org/wiki/Binary_prefix))
-    - 1KiB = 1.024 kB 
+  - well, actually: to resolve this, the binary prefixes (1024-baesd) have a trailing `i`. (see [here](https://en.wikipedia.org/wiki/Binary_prefix))
+    - 1KiB = 1.024 kB (KiB is pronounced "Kibibyte", something I have never heared in my entire life)
 - prefixes are: kilo, Mega, Giga, Tera, Peta, Exa
 - point out:
   - 2^1_ = Ki
@@ -20,7 +20,7 @@ Certain numbers will appear around you again and again when you deal with comput
   - 2^5_ = Pi
   - 2^6_ = Ei
 
-- TODO: mnemotechnic verse for KMGTPE - 
+- TODO: mnemotechnic verse for KMGTPE - Kiwis make green things particularily enjoyable – or something. (the stuff you gfind on the web is reversed or otherwise broken)
 
 - things you should know by heart:
   - 2^0 = 1
