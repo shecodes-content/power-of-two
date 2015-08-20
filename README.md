@@ -9,14 +9,16 @@ Certain numbers will appear around you again and again when you deal with comput
 - x^y read: x to the power of y (we write it like this because superscript is not available everywhere)
 - point out: 1k stands for x1024 (unlike in the decimal world ([SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)), where it stands for x1000 as in km and kg)
   - the confusion about whether, for example, G stands for 1024\*1024\*1024 or 1000\*1000\*1000 is exploited by marketing people, most famously when advertising harddisks. Harddsika can store less than you think, because "120GB" actually are what we would call 111.75GB.
+  - to resolve this, the binary prefixes (1024-baesd) have a trailing `i`. (see [here](https://en.wikipedia.org/wiki/Binary_prefix))
+    - 1KiB = 1.024 kB 
 - prefixes are: kilo, Mega, Giga, Tera, Peta, Exa
 - point out:
-  - 2^1_ = K
-  - 2^2_ = M
-  - 2^3_ = G
-  - 2^4_ = T
-  - 2^5_ = P
-  - 2^6_ = E
+  - 2^1_ = Ki
+  - 2^2_ = Mi
+  - 2^3_ = Gi
+  - 2^4_ = Ti
+  - 2^5_ = Pi
+  - 2^6_ = Ei
 
 - TODO: mnemotechnic verse for KMGTPE - 
 
@@ -30,10 +32,10 @@ Certain numbers will appear around you again and again when you deal with comput
   - 2^10 = 1024 (easy, starts with 10)
 
 - Quizz:
-  - what is 2 to the power of 44? Answer: 16T
-  - or: what is 2^16? Answer: 64K
+  - what is 2 to the power of 44? Answer: 16Ti
+  - or: what is 2^16? Answer: 64Ki
     - (65,536)
-  - or: 2^64 (max. unsinged integer value in 64bit, number of grains of rice on last chessboard square): 16 Exa
+  - or: 2^64 (max. unsinged integer value in 64bit, number of grains of rice on last chessboard square): 16 Ei
    (the 20-digit decimal number 18,446,744,073,709,551,616)
   
 2^2048 (typical key length): we have no name for that (617 digit decimal number)
