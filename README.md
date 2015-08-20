@@ -10,7 +10,16 @@ Certain numbers will appear around you again and again when you deal with comput
 - point out: 1k stands for x1024 (unlike in the decimal world ([SI prefixes](https://en.wikipedia.org/wiki/Metric_prefix)), where it stands for x1000 as in km and kg)
   - the confusion about whether, for example, G stands for 1024\*1024\*1024 or 1000\*1000\*1000 is exploited by marketing people, most famously when advertising harddisks. Harddsika can store less than you think, because "120GB" actually are what we would call 111.75GB.
 - prefixes are: kilo, Mega, Giga, Tera, Peta, Exa
-- point out: 2^1x = K, 2^2x = M, 2^3x = G etc.
+- point out:
+  - 2^1_ = K
+  - 2^2_ = M
+  - 2^3_ = G
+  - 2^4_ = T
+  - 2^5_ = P
+  - 2^6_ = E
+
+- TODO: mnemotechnic verse for KMGTPE - 
+
 - things you should know by heart:
   - 2^0 = 1
   - 2^1 = 2
@@ -23,3 +32,20 @@ Certain numbers will appear around you again and again when you deal with comput
 - Quizz:
   - what is 2 to the power of 44? Answer: 16T
   - or: what is 2^16? Answer: 64K
+    - (65,536)
+  - or: 2^64 (max. unsinged integer value in 64bit, number of grains of rice on last chessboard square): 16 Exa
+   (the 20-digit decimal number 18,446,744,073,709,551,616)
+  
+2^2048 (typical key length): we have no name for that (617 digit decimal number)
+(there are 32317006071311007300714876688669951960444102669715484032130345427524\
+65513886789089319720141152291346368871796092189801949411955915049092\
+10950881523864482831206308773673009960917501977503896521067960576383\
+84067568276792218642619756161838094338476170470581645852036305042887\
+57589154106580860755239912393038552191433338966834242068497478656456\
+94948561760353263220580778056593310261927084603141502585928641771167\
+25943603718461857357598351152301645904403697613233287231227125684710\
+82020972515710172693132346967854258065669793504599726835299863821552\
+51663894373355436021354332296046453184786049521481935558536110595962\
+30656 different keys)
+
+But it is recommended to use a key length of 4096 bits (that's a 1234-digit decimal number)
